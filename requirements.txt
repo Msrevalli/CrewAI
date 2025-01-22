@@ -2,3 +2,4 @@ crewai
 crewai_tools
 google-search-results
 streamlit
+chromadb
