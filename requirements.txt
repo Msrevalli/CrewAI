@@ -1,5 +1,5 @@
 crewai
-crewai_tools
+crewai-tools
 google-search-results
 streamlit
 chromadb
