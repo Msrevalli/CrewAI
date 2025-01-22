@@ -5,9 +5,9 @@ from crewai_tools import SerperDevTool
 import streamlit as st  # Add Streamlit import
 
 
-os.environ['OPENAI_API_KEY']=st.secrets('OPENAI_API_KEY')
+os.environ['OPENAI_API_KEY']=st.secrets['OPENAI_API_KEY']
 # Set up SerpAPI (or Google Search Results) API key
-os.environ["SERPER_API_KEY"] = st.secrets("SERPER_API_KEY")
+os.environ["SERPER_API_KEY"] = st.secrets["SERPER_API_KEY"]
 
 os.environ["OPENAI_MODEL_NAME"]="gpt-4o-mini"
 
